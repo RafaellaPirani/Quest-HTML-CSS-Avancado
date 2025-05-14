@@ -1,0 +1,72 @@
+body {
+    background-image: url('../images/bg-desktop.svg');
+    background: cover no-repeat center;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Poppins';
+    height: 100%;
+    max-width: 1440px;
+}
+
+.img-main {
+    width: 215px;
+    margin: 52px 0 10px 73px;
+}
+
+.container {
+    display: flex;
+    margin: 73px;
+}
+
+.container img {
+    margin-right: 55px;
+}
+
+.information h1 {
+    font-size: 3.93rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 45px 0 20px 0;
+}
+
+.information p {
+    font-size: 1.45rem;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.information button {
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 15px 65px;
+    border-radius: 25px;
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+}
+
+.information button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 73px;
+}
+
+.social {
+    color: #fff;
+}
+
+i {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+i:hover {
+    color: hsl(300, 69%, 71%);   
+}
+
+
